@@ -2,6 +2,8 @@
   "name": "colored-blocks-alternate",
   "description": "Colored Blocks demo for Mitt Software Developer Program",
   "scripts": {
+    "rollup": "rollup src/js/script.js --file src/js/bundle.js --format es --watch",
+    "build": "npm run rollup"
   },
   "repository": {
     "type": "git",
@@ -12,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/EunKyung0505/Portfolio-EK/issues"
   },
-  "homepage": "https://github.com/EunKyung0505/Portfolio-EK#readme"
+  "homepage": "https://github.com/EunKyung0505/Portfolio-EK#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^2.70.1"
+  }
 }
