@@ -1,15 +1,10 @@
+import { randomColor } from "./utils";
+
 document.addEventListener('DOMContentLoaded', function() {
   const totalBoxes = document.querySelectorAll('div.color').length;
   let totalColored = 0;
 
-  function randomColor() {
-    const rNum = () => (Math.floor(Math.random() * 255));
 
-    // return 'rgb(' + Math.floor(Math.random() * 255)+ ','
-    // + Math.floor(Math.random() * 255) + ','
-    // + Math.floor(Math.random()*255) + ')';
-    return `rgb(${rNum()}, ${rNum()}, ${rNum()})`;
-  }
 
   function bgChange(e) {
 
