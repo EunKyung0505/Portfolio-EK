@@ -1,0 +1,16 @@
+{
+  "name": "colored-blocks-alternate",
+  "description": "Colored Blocks demo for Mitt Software Developer Program",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EunKyung0505/Portfolio-EK.git"
+  },
+  "author": "Eunkyung Park <apjp0505@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EunKyung0505/Portfolio-EK/issues"
+  },
+  "homepage": "https://github.com/EunKyung0505/Portfolio-EK#readme"
+}
