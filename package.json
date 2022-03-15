@@ -15,8 +15,9 @@
     "url": "https://github.com/EunKyung0505/Portfolio-EK/issues"
   },
   "homepage": "https://github.com/EunKyung0505/Portfolio-EK#readme",
-  "dependencies": {},
   "devDependencies": {
+    "clean-css-cli": "^5.5.2",
+    "imagemin-cli": "^7.0.0",
     "rollup": "^2.70.1"
   }
 }

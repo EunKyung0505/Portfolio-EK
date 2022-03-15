@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const totalBoxes = document.querySelectorAll('div.color').length;
   let totalColored = 0;
 
-
-
   function bgChange(e) {
 
     if (!e.target.dataset.colored && e.target.classList.contains('color')) {
